@@ -14,7 +14,7 @@ import org.koin.core.scope.Scope
 
 class MainActivity : ComponentActivity(), AndroidScopeComponent {
     // can be used like this in xml project
-   // private val viewModel y viewModel<MainViewModel>()
+   // private val viewModel by viewModel<MainViewModel>()
 
     //any object needed immediate injection
     //private val api = get<myApi>()
